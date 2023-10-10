@@ -18,6 +18,24 @@
     </li>
 
     <li class="nav-item">
+        <a class="nav-link" href="{{ route('list') }}">
+            <svg class="nav-icon">
+                <use xlink:href="{{ asset('icons/coreui.svg#cil-user') }}"></use>
+            </svg>
+            {{ __('Danh sach lop') }}
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('chuyennganh') }}">
+            <svg class="nav-icon">
+                <use xlink:href="{{ asset('icons/coreui.svg#cil-user') }}"></use>
+            </svg>
+            {{ __('Danh sach chuyen nganh') }}
+        </a>
+    </li>
+
+    <li class="nav-item">
         <a class="nav-link" href="{{ route('about') }}">
             <svg class="nav-icon">
                 <use xlink:href="{{ asset('icons/coreui.svg#cil-speedometer') }}"></use>
